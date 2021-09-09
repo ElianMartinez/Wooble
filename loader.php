@@ -3,14 +3,14 @@
 
 error_reporting(E_ERROR);
 // Desactivar toda notificación de e
-$mensage ='';
-SESSION_START();
+// $mensage ='';
+// SESSION_START();
 
-if (!isset($_SESSION['usuario'])) {
-	header('location:index.php');
-}else{
-	$_SESSION['usuario'];
-}
+// if (!isset($_SESSION['usuario'])) {
+// 	header('location:index.php');
+// }else{
+// 	$_SESSION['usuario'];
+// }
 
  ?>
 <!DOCTYPE html>
@@ -132,7 +132,7 @@ top: 0;
 }
 
 	</style>
-	<h2><b><?=$_SESSION['usuario']; ?></b> Bievenido a  </h2>
+	<h2><b>Elián</b> Bievenido a  </h2>
 	
 	<div class="loader">
 		
