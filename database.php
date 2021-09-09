@@ -10,7 +10,7 @@ $database = 'socios';
 try {
 	$conn = new PDO("mysql:host=$server;dbname=$database;",$username,$password);
 	
-} catch (PDOException $e) {
+} catch (PDOException $e) { 
 	die('Connection fail: '.$e->GetMessage());
 }
- ?>
+ ?> 
